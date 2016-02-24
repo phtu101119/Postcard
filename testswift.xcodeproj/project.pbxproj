@@ -14,6 +14,12 @@
 		E2230D6B1C7B8150001F780C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2230D691C7B8150001F780C /* LaunchScreen.storyboard */; };
 		E2230D761C7B8150001F780C /* testswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2230D751C7B8150001F780C /* testswiftTests.swift */; };
 		E2230D811C7B8150001F780C /* testswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2230D801C7B8150001F780C /* testswiftUITests.swift */; };
+		E2230D901C7B82ED001F780C /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E2230D8F1C7B82ED001F780C /* SagradaFamilia.jpeg */; };
+		E2230D911C7B82ED001F780C /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E2230D8F1C7B82ED001F780C /* SagradaFamilia.jpeg */; };
+		E2230D921C7B82ED001F780C /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E2230D8F1C7B82ED001F780C /* SagradaFamilia.jpeg */; };
+		E2230D941C7B82F5001F780C /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2230D931C7B82F5001F780C /* AlbertEinsteinStamp.jpg */; };
+		E2230D951C7B82F5001F780C /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2230D931C7B82F5001F780C /* AlbertEinsteinStamp.jpg */; };
+		E2230D961C7B82F5001F780C /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2230D931C7B82F5001F780C /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		E2230D7C1C7B8150001F780C /* testswiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testswiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2230D801C7B8150001F780C /* testswiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testswiftUITests.swift; sourceTree = "<group>"; };
 		E2230D821C7B8150001F780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2230D8F1C7B82ED001F780C /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		E2230D931C7B82F5001F780C /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		E2230D5F1C7B8150001F780C /* testswift */ = {
 			isa = PBXGroup;
 			children = (
+				E2230D8E1C7B82D6001F780C /* files */,
 				E2230D601C7B8150001F780C /* AppDelegate.swift */,
 				E2230D621C7B8150001F780C /* ViewController.swift */,
 				E2230D641C7B8150001F780C /* Main.storyboard */,
@@ -123,6 +132,15 @@
 				E2230D821C7B8150001F780C /* Info.plist */,
 			);
 			path = testswiftUITests;
+			sourceTree = "<group>";
+		};
+		E2230D8E1C7B82D6001F780C /* files */ = {
+			isa = PBXGroup;
+			children = (
+				E2230D931C7B82F5001F780C /* AlbertEinsteinStamp.jpg */,
+				E2230D8F1C7B82ED001F780C /* SagradaFamilia.jpeg */,
+			);
+			name = files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2230D6B1C7B8150001F780C /* LaunchScreen.storyboard in Resources */,
+				E2230D901C7B82ED001F780C /* SagradaFamilia.jpeg in Resources */,
+				E2230D941C7B82F5001F780C /* AlbertEinsteinStamp.jpg in Resources */,
 				E2230D681C7B8150001F780C /* Assets.xcassets in Resources */,
 				E2230D661C7B8150001F780C /* Main.storyboard in Resources */,
 			);
@@ -239,6 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2230D951C7B82F5001F780C /* AlbertEinsteinStamp.jpg in Resources */,
+				E2230D911C7B82ED001F780C /* SagradaFamilia.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2230D961C7B82F5001F780C /* AlbertEinsteinStamp.jpg in Resources */,
+				E2230D921C7B82ED001F780C /* SagradaFamilia.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
