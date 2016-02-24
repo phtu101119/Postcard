@@ -104,6 +104,15 @@
                                     <rect key="frame" x="26" y="102" width="198" height="21"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IZ-Nk-1YE">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="169" width="198" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="rxL-me-iaY"/>
                                 <exclude reference="4eh-YN-50f"/>
                                 <exclude reference="qNg-JT-zEf"/>
+                                <exclude reference="5IZ-Nk-1YE"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="rxL-me-iaY"/>
                                 <include reference="4eh-YN-50f"/>
                                 <include reference="qNg-JT-zEf"/>
+                                <include reference="5IZ-Nk-1YE"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="Hil-gW-BbI" id="Xxj-Te-Yw0"/>
                         <outlet property="mailButton" destination="4eh-YN-50f" id="Sjo-7B-Jh3"/>
                         <outlet property="messageLabel" destination="qNg-JT-zEf" id="jFc-bO-QZG"/>
+                        <outlet property="nameLabel" destination="5IZ-Nk-1YE" id="dfs-GT-8xm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a09-qe-Jjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
